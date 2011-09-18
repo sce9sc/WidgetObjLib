@@ -1,0 +1,29 @@
+{ 
+  "initiation":0,
+  "version": "0.1", 
+  "modules": [ 
+       {
+          "num":1,
+          "name": "veltijs", 
+          "src":["js/modules/veltijs/veltijs.js"]
+      },
+      {
+          "num":2,
+          "name": "widgets", 
+          "file":["js/modules/widgets/testmodule.js"]
+      },
+      {
+          "num":3,
+          "name": "ejs", 
+          "file":["js/modules/ejs/ejs.js",
+              "js/modules/ejs/view.js",
+              "js/modules/ejs/ejs_production.js"]
+      },
+      {
+          "num":3,
+          "name": "template", 
+          "file":["js/modules/template/main.js"]
+      }
+   ]
+       
+}

@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title>Testing velti js</TITLE>
+    <link rel="shortcut icon" 
+        href="drink_blue.ico" />
+    <meta name="viewport" content="width=device-width;"/>
+    <!--META http-equiv="Content-Script-Type" content="text/tcl"-->
+    <style>
+        body{
+           margin:0;
+           padding:0;
+           background-color:red;
+        }
+        
+       
+    </style>
+    <script type="text/javascript" src="js/vjs.js"></script>
+    
+    </head>
+    <body onload="Vjs.__init__();" >
+        
+        <div id="vjs"></div>
+        <div id="loadingbar" style="box-shadow: 3px 3px 7px #777; border-radius: 10px;display:none;z-index:9;width:200px;height:35px;background-color:gray;margin:40px auto;padding-top:15px;">
+            <div id="progressbar" style="margin:0 auto;border:1px solid gray;width:150px; clear:both; height:15px;clear:both">
+                <div id="indicator"></div>
+            </div>
+            <div style="clear:both"></div>
+            <div id="main_window"></div>
+        </div>
+    </body>
+    
+</html>
